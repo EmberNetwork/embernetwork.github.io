@@ -23,7 +23,8 @@ body {
 }
 
 .nav.is-sticky {
-    position: fixed;
+    top: 0;
+    position: sticky;
 }
 
 .nav>.item {
@@ -60,7 +61,7 @@ body {
 }
 
 .header {
-    height: 50%;
+    height: 55%;
     width: 100%;
     background-image: url('/assets/img/background.svg');
     background-repeat: no-repeat;
