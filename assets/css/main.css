@@ -19,6 +19,7 @@ body {
     height: 70px;
     justify-content: left;
     overflow: hidden;
+    transition: .5s;
 }
 
 .nav.is-sticky {
@@ -26,6 +27,7 @@ body {
 }
 
 .nav>.item {
+    transition: .5s;
     align-items: center;
     color: #fff;
     display: flex;
@@ -54,7 +56,7 @@ body {
 }
 
 .nav>.logo>img {
-    width: 50px;
+    height: 50px;
 }
 
 .header {
