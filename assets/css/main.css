@@ -17,3 +17,8 @@ body {
     width: 100%;
     background-image: url('/assets/img/background.svg');
 }
+
+.header>h1 {
+    font-size: 50px;
+    text-align: center;
+}
