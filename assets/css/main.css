@@ -14,6 +14,49 @@ body {
     margin: 0px;
 }
 
+.nav {
+    display: flex;
+    height: 70px;
+    justify-content: left;
+    overflow: hidden;
+}
+
+.nav.is-sticky {
+    position: sticky;
+}
+
+.nav>.item {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-decoration: none;
+}
+
+.nav>.item:hover {
+    background-color: #fff;
+    color: #001220;
+    text-decoration: none;
+}
+
+.nav>.item.is-active {
+    background-color: #fff;
+    color: #001220;
+    text-decoration: none;
+}
+
+.nav>.logo {
+    height: 50px;
+    overflow: hidden;
+    padding: 10px;
+    width: 50px;
+}
+
+.nav>.logo>img {
+    width: 50px;
+}
+
 .header {
     height: 100%;
     width: 100%;
@@ -25,7 +68,7 @@ body {
 }
 
 .header>h1 {
-    padding-top: 25%;
     font-size: 50px;
     text-align: center;
+    vertical-align: center;
 }
