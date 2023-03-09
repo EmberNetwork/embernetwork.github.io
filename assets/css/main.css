@@ -83,7 +83,7 @@ input {
     font-family: inherit;
     padding: 0px 17px;
     height: 48px;
-    border: 1px solid #ffffff33;
+    border: 1px solid #000000e6;
     color: #000;
     border-radius: 3px;
     outline: none;
@@ -124,7 +124,7 @@ button {
     font-family: inherit;
     padding: 0px 17px;
     height: 48px;
-    border: 1px solid #ffffff33;
+    border: 1px solid #000000e6;
     color: #000;
     border-radius: 3px;
     outline: none;
