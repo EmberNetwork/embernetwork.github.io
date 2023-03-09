@@ -77,3 +77,78 @@ body {
     vertical-align: center;
     font-family: 'Raleway-Black';
 }
+
+input {
+    background: none;
+    font-family: inherit;
+    padding: 0px 17px;
+    height: 48px;
+    border: 1px solid #ffffff33;
+    color: #000;
+    border-radius: 3px;
+    outline: none;
+    width: 350px;
+    margin-top: 5px;
+    border-radius: 50px;
+    color: #000;
+    transition: .5s;
+    margin: auto;
+}
+
+input:focus {
+    border: 1px solid #fdfdfd83;
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px #111;
+}
+
+input:focus:disabled {
+    border-radius: 50px;
+}
+
+input:disabled {
+    border: 1px solid #ff000083;
+    color: #ff000083;
+    cursor: not-allowed;
+}
+
+input:disabled::placeholder {
+    color: #ff000083;
+}
+
+input::placeholder {
+    transition: .5s;
+}
+
+button {
+    background: none;
+    font-family: inherit;
+    padding: 0px 17px;
+    height: 48px;
+    border: 1px solid #ffffff33;
+    color: #000;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 5px;
+    border-radius: 50px;
+    color: #000;
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid #00000083;
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px #111;
+}
+
+button:hover:disabled {
+    border-radius: 50px;
+}
+
+button:disabled {
+    border: 1px solid #ff000083;
+    color: #ff000083;
+    cursor: not-allowed;
+}
