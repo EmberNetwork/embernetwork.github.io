@@ -1,9 +1,10 @@
 @import url('/assets/css/fonts.css');
 @import url('/assets/css/themes.css');
-@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 
 * {
     font-family: 'Raleway-Light';
+    user-select: none;
 }
 
 html,
@@ -152,4 +153,32 @@ button:disabled {
     border: 1px solid #ff000083;
     color: #ff000083;
     cursor: not-allowed;
+}
+
+.scroll-arrow {
+    color: var(--text);
+    margin: auto;
+    animation: action 1s infinite;
+}
+
+@keyframes arrow-animation {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-5px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    75% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
 }
