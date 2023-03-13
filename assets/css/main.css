@@ -157,8 +157,10 @@ button:disabled {
 
 .scroll-arrow {
     color: var(--text);
-    margin: auto;
-    animation: action 1s infinite;
+    position: absolute;
+    animation: arrow-animation 1s infinite;
+    z-index: 999999999;
+    font-size: 20px;
 }
 
 @keyframes arrow-animation {
@@ -166,19 +168,7 @@ button:disabled {
         transform: translateY(0);
     }
 
-    25% {
-        transform: translateY(-5px);
-    }
-
-    50% {
-        transform: translateY(-15px);
-    }
-
-    75% {
-        transform: translateY(-20px);
-    }
-
     100% {
-        transform: translateY(-20px);
+        transform: translateY(-10px);
     }
 }
