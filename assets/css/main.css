@@ -10,8 +10,6 @@
 html,
 body {
     background: var(--background);
-    height: 100%;
-    width: 100%;
     color: var(--text);
     margin: 0px;
 }
@@ -158,9 +156,11 @@ button:disabled {
 .scroll-arrow {
     color: var(--text);
     position: absolute;
-    animation: arrow-animation 1s infinite;
-    z-index: 999999999;
-    font-size: 20px;
+    animation: arrow-animation 2s infinite;
+    font-size: 50px;
+    top: 70%;
+    left: 50%;
+    cursor: pointer;
 }
 
 @keyframes arrow-animation {
@@ -168,7 +168,11 @@ button:disabled {
         transform: translateY(0);
     }
 
-    100% {
+    50% {
         transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
     }
 }
