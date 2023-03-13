@@ -11,7 +11,7 @@ body {
     background: var(--background);
     height: 100%;
     width: 100%;
-    color: #fff;
+    color: var(--text);
     margin: 0px;
 }
 
@@ -32,7 +32,7 @@ body {
 .nav>.item {
     transition: .5s;
     align-items: center;
-    color: #fff;
+    color: var(--text);
     display: flex;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -40,13 +40,13 @@ body {
 }
 
 .nav>.item:hover {
-    background-color: #fff;
+    background-color: var(--text);
     color: var(--background);
     text-decoration: none;
 }
 
 .nav>.item.is-active {
-    background-color: #fff;
+    background-color: var(--text);
     color: var(--background);
     text-decoration: none;
 }
