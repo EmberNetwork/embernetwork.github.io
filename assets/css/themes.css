@@ -1,9 +1,9 @@
-:root {
+html:root {
     --background: #dcdddd;
     --text: #232222;
 }
 
-[data-theme="dark"] {
+html[data-theme="dark"] {
     --background: #232222;
     --text: dcdddd;
 }

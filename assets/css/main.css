@@ -62,20 +62,21 @@ body {
 }
 
 .header {
-    height: 55%;
+    height: 21rem;
     width: 100%;
     background-image: url('/assets/img/background.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0 0 0;
     position: absolute;
+    vertical-align: middle;
 }
 
 .header>h1 {
     font-size: 50px;
     text-align: center;
-    vertical-align: center;
     font-family: 'Raleway-Black';
+    color: var(--background);
 }
 
 input {
@@ -158,7 +159,7 @@ button:disabled {
     position: absolute;
     animation: arrow-animation 2s infinite;
     font-size: 50px;
-    top: 70%;
+    top: 27rem;
     left: 50%;
     cursor: pointer;
 }
