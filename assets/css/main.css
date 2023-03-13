@@ -7,7 +7,7 @@
 
 html,
 body {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgb(49, 48, 48);
     height: 100%;
     width: 100%;
     color: #fff;
@@ -20,7 +20,7 @@ body {
     justify-content: left;
     overflow: hidden;
     transition: .5s;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgb(49, 48, 48);
 }
 
 .nav.is-sticky {
@@ -40,13 +40,13 @@ body {
 
 .nav>.item:hover {
     background-color: #fff;
-    color: rgba(255, 255, 255, 0.1);
+    color: rgb(49, 48, 48);
     text-decoration: none;
 }
 
 .nav>.item.is-active {
     background-color: #fff;
-    color: rgba(255, 255, 255, 0.1);
+    color: rgb(49, 48, 48);
     text-decoration: none;
 }
 
